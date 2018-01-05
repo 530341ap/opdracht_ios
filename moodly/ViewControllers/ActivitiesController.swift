@@ -35,17 +35,13 @@ class ActivitiesViewController : UICollectionViewController {
     }
     
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "activityCell", for: indexPath) as! ActivityCell
         let activity = user.activities[indexPath.item]
         if(chosenActivities.contains{activity.name == $0.name}) {
             chosenActivities.remove(at: chosenActivities.index(where: {activity.name == $0.name})!)
-            cell.backgroundColor = .white
         } else {
             print(activity.name)
             chosenActivities.append(activity)
-            cell.backgroundColor = .gray
         }
-        
     }
 }
 
