@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07733C600A6616E5A3D3D983 /* Pods_moodly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CF72B5876D1574514778FB4 /* Pods_moodly.framework */; };
+		40028CCA1FFFD8BD00117007 /* EmptyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40028CC91FFFD8BD00117007 /* EmptyViewController.swift */; };
+		400C21611FEFAE2E00BC57B7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400C21601FEFAE2E00BC57B7 /* User.swift */; };
+		400C21631FEFB1C900BC57B7 /* MoodMonthHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400C21621FEFB1C900BC57B7 /* MoodMonthHeader.swift */; };
+		40205FA71FFD108400905A3D /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40205FA61FFD108400905A3D /* Charts.framework */; };
+		40205FA81FFD108400905A3D /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 40205FA61FFD108400905A3D /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		40205FAE1FFD11E700905A3D /* StatisticsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40205FAD1FFD11E700905A3D /* StatisticsController.swift */; };
+		40205FB01FFD11FE00905A3D /* AddActivitiesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40205FAF1FFD11FE00905A3D /* AddActivitiesController.swift */; };
+		40205FB21FFD131900905A3D /* MoodlyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40205FB11FFD131900905A3D /* MoodlyController.swift */; };
+		40205FB41FFD210300905A3D /* YearCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40205FB31FFD210300905A3D /* YearCell.swift */; };
+		40205FB61FFD384F00905A3D /* ActivityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40205FB51FFD384F00905A3D /* ActivityCell.swift */; };
+		405285011FFE416E00767A18 /* ActivitiesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405285001FFE416E00767A18 /* ActivitiesController.swift */; };
+		406FF4BB1FEBBBBD00AF8B0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406FF4BA1FEBBBBD00AF8B0D /* AppDelegate.swift */; };
+		406FF4C01FEBBBBD00AF8B0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 406FF4BE1FEBBBBD00AF8B0D /* Main.storyboard */; };
+		406FF4C21FEBBBBD00AF8B0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 406FF4C11FEBBBBD00AF8B0D /* Assets.xcassets */; };
+		406FF4C51FEBBBBD00AF8B0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 406FF4C31FEBBBBD00AF8B0D /* LaunchScreen.storyboard */; };
+		406FF4CF1FEBC71100AF8B0D /* Mood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406FF4CE1FEBC71100AF8B0D /* Mood.swift */; };
+		406FF4D11FEBC74C00AF8B0D /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406FF4D01FEBC74C00AF8B0D /* Category.swift */; };
+		406FF4D31FEBCB6300AF8B0D /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406FF4D21FEBCB6300AF8B0D /* Activity.swift */; };
+		406FF4D51FEBF8A300AF8B0D /* MoodController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406FF4D41FEBF8A300AF8B0D /* MoodController.swift */; };
+		406FF4D71FEBF8B700AF8B0D /* AddMoodController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406FF4D61FEBF8B700AF8B0D /* AddMoodController.swift */; };
+		406FF4DA1FEC00DE00AF8B0D /* MoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406FF4D91FEC00DE00AF8B0D /* MoodCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		40205FA51FFD0E1400905A3D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				40205FA81FFD108400905A3D /* Charts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		15698FA61C3926CCCFB43B65 /* Pods-moodly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moodly.debug.xcconfig"; path = "Pods/Target Support Files/Pods-moodly/Pods-moodly.debug.xcconfig"; sourceTree = "<group>"; };
+		40028CC91FFFD8BD00117007 /* EmptyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyViewController.swift; sourceTree = "<group>"; };
+		400C21601FEFAE2E00BC57B7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		400C21621FEFB1C900BC57B7 /* MoodMonthHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodMonthHeader.swift; sourceTree = "<group>"; };
+		40205FA61FFD108400905A3D /* Charts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Charts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40205FAD1FFD11E700905A3D /* StatisticsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsController.swift; sourceTree = "<group>"; };
+		40205FAF1FFD11FE00905A3D /* AddActivitiesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddActivitiesController.swift; sourceTree = "<group>"; };
+		40205FB11FFD131900905A3D /* MoodlyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodlyController.swift; sourceTree = "<group>"; };
+		40205FB31FFD210300905A3D /* YearCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearCell.swift; sourceTree = "<group>"; };
+		40205FB51FFD384F00905A3D /* ActivityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCell.swift; sourceTree = "<group>"; };
+		405285001FFE416E00767A18 /* ActivitiesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesController.swift; sourceTree = "<group>"; };
+		406FF4B71FEBBBBD00AF8B0D /* moodly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = moodly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		406FF4BA1FEBBBBD00AF8B0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		406FF4BF1FEBBBBD00AF8B0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		406FF4C11FEBBBBD00AF8B0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		406FF4C41FEBBBBD00AF8B0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		406FF4C61FEBBBBD00AF8B0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		406FF4CE1FEBC71100AF8B0D /* Mood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood.swift; sourceTree = "<group>"; };
+		406FF4D01FEBC74C00AF8B0D /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		406FF4D21FEBCB6300AF8B0D /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		406FF4D41FEBF8A300AF8B0D /* MoodController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodController.swift; sourceTree = "<group>"; };
+		406FF4D61FEBF8B700AF8B0D /* AddMoodController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMoodController.swift; sourceTree = "<group>"; };
+		406FF4D91FEC00DE00AF8B0D /* MoodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodCell.swift; sourceTree = "<group>"; };
+		4ED80356883722FF32334F7C /* Pods-moodly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moodly.release.xcconfig"; path = "Pods/Target Support Files/Pods-moodly/Pods-moodly.release.xcconfig"; sourceTree = "<group>"; };
+		5CF72B5876D1574514778FB4 /* Pods_moodly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_moodly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		406FF4B41FEBBBBD00AF8B0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07733C600A6616E5A3D3D983 /* Pods_moodly.framework in Frameworks */,
+				40205FA71FFD108400905A3D /* Charts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		147BAA276C802E9CCEE09798 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CF72B5876D1574514778FB4 /* Pods_moodly.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		16DC085A35B9FCBC5BBC888F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15698FA61C3926CCCFB43B65 /* Pods-moodly.debug.xcconfig */,
+				4ED80356883722FF32334F7C /* Pods-moodly.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		406FF4AE1FEBBBBD00AF8B0D = {
+			isa = PBXGroup;
+			children = (
+				40205FA61FFD108400905A3D /* Charts.framework */,
+				406FF4B91FEBBBBD00AF8B0D /* moodly */,
+				406FF4B81FEBBBBD00AF8B0D /* Products */,
+				16DC085A35B9FCBC5BBC888F /* Pods */,
+				147BAA276C802E9CCEE09798 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		406FF4B81FEBBBBD00AF8B0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				406FF4B71FEBBBBD00AF8B0D /* moodly.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		406FF4B91FEBBBBD00AF8B0D /* moodly */ = {
+			isa = PBXGroup;
+			children = (
+				406FF4D81FEC00CE00AF8B0D /* Views */,
+				406FF4CD1FEBC6A300AF8B0D /* ViewControllers */,
+				406FF4CC1FEBC68F00AF8B0D /* Model */,
+				406FF4BA1FEBBBBD00AF8B0D /* AppDelegate.swift */,
+				406FF4BE1FEBBBBD00AF8B0D /* Main.storyboard */,
+				406FF4C11FEBBBBD00AF8B0D /* Assets.xcassets */,
+				406FF4C31FEBBBBD00AF8B0D /* LaunchScreen.storyboard */,
+				406FF4C61FEBBBBD00AF8B0D /* Info.plist */,
+			);
+			path = moodly;
+			sourceTree = "<group>";
+		};
+		406FF4CC1FEBC68F00AF8B0D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				406FF4CE1FEBC71100AF8B0D /* Mood.swift */,
+				406FF4D01FEBC74C00AF8B0D /* Category.swift */,
+				406FF4D21FEBCB6300AF8B0D /* Activity.swift */,
+				400C21601FEFAE2E00BC57B7 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		406FF4CD1FEBC6A300AF8B0D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				406FF4D41FEBF8A300AF8B0D /* MoodController.swift */,
+				406FF4D61FEBF8B700AF8B0D /* AddMoodController.swift */,
+				40205FAD1FFD11E700905A3D /* StatisticsController.swift */,
+				40205FAF1FFD11FE00905A3D /* AddActivitiesController.swift */,
+				40205FB11FFD131900905A3D /* MoodlyController.swift */,
+				405285001FFE416E00767A18 /* ActivitiesController.swift */,
+				40028CC91FFFD8BD00117007 /* EmptyViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		406FF4D81FEC00CE00AF8B0D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				406FF4D91FEC00DE00AF8B0D /* MoodCell.swift */,
+				400C21621FEFB1C900BC57B7 /* MoodMonthHeader.swift */,
+				40205FB31FFD210300905A3D /* YearCell.swift */,
+				40205FB51FFD384F00905A3D /* ActivityCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		406FF4B61FEBBBBD00AF8B0D /* moodly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 406FF4C91FEBBBBD00AF8B0D /* Build configuration list for PBXNativeTarget "moodly" */;
+			buildPhases = (
+				34721601295E6E0BC430BA3E /* [CP] Check Pods Manifest.lock */,
+				406FF4B31FEBBBBD00AF8B0D /* Sources */,
+				406FF4B41FEBBBBD00AF8B0D /* Frameworks */,
+				406FF4B51FEBBBBD00AF8B0D /* Resources */,
+				F4565E71E6B7D72E9337FB96 /* [CP] Embed Pods Frameworks */,
+				385A47C9D2BB4D0337BEB954 /* [CP] Copy Pods Resources */,
+				40205FA51FFD0E1400905A3D /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = moodly;
+			productName = moodly;
+			productReference = 406FF4B71FEBBBBD00AF8B0D /* moodly.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		406FF4AF1FEBBBBD00AF8B0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Aïssa";
+				TargetAttributes = {
+					406FF4B61FEBBBBD00AF8B0D = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 406FF4B21FEBBBBD00AF8B0D /* Build configuration list for PBXProject "moodly" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 406FF4AE1FEBBBBD00AF8B0D;
+			productRefGroup = 406FF4B81FEBBBBD00AF8B0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				406FF4B61FEBBBBD00AF8B0D /* moodly */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		406FF4B51FEBBBBD00AF8B0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				406FF4C51FEBBBBD00AF8B0D /* LaunchScreen.storyboard in Resources */,
+				406FF4C21FEBBBBD00AF8B0D /* Assets.xcassets in Resources */,
+				406FF4C01FEBBBBD00AF8B0D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34721601295E6E0BC430BA3E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-moodly-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		385A47C9D2BB4D0337BEB954 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-moodly/Pods-moodly-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4565E71E6B7D72E9337FB96 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-moodly/Pods-moodly-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-moodly/Pods-moodly-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		406FF4B31FEBBBBD00AF8B0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				406FF4DA1FEC00DE00AF8B0D /* MoodCell.swift in Sources */,
+				40205FB01FFD11FE00905A3D /* AddActivitiesController.swift in Sources */,
+				40028CCA1FFFD8BD00117007 /* EmptyViewController.swift in Sources */,
+				406FF4D31FEBCB6300AF8B0D /* Activity.swift in Sources */,
+				400C21631FEFB1C900BC57B7 /* MoodMonthHeader.swift in Sources */,
+				406FF4CF1FEBC71100AF8B0D /* Mood.swift in Sources */,
+				40205FB21FFD131900905A3D /* MoodlyController.swift in Sources */,
+				405285011FFE416E00767A18 /* ActivitiesController.swift in Sources */,
+				40205FB41FFD210300905A3D /* YearCell.swift in Sources */,
+				40205FAE1FFD11E700905A3D /* StatisticsController.swift in Sources */,
+				40205FB61FFD384F00905A3D /* ActivityCell.swift in Sources */,
+				406FF4BB1FEBBBBD00AF8B0D /* AppDelegate.swift in Sources */,
+				400C21611FEFAE2E00BC57B7 /* User.swift in Sources */,
+				406FF4D51FEBF8A300AF8B0D /* MoodController.swift in Sources */,
+				406FF4D71FEBF8B700AF8B0D /* AddMoodController.swift in Sources */,
+				406FF4D11FEBC74C00AF8B0D /* Category.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		406FF4BE1FEBBBBD00AF8B0D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				406FF4BF1FEBBBBD00AF8B0D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		406FF4C31FEBBBBD00AF8B0D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				406FF4C41FEBBBBD00AF8B0D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		406FF4C71FEBBBBD00AF8B0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		406FF4C81FEBBBBD00AF8B0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		406FF4CA1FEBBBBD00AF8B0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15698FA61C3926CCCFB43B65 /* Pods-moodly.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = moodly/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = be.peters.moodly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		406FF4CB1FEBBBBD00AF8B0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ED80356883722FF32334F7C /* Pods-moodly.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = moodly/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = be.peters.moodly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		406FF4B21FEBBBBD00AF8B0D /* Build configuration list for PBXProject "moodly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				406FF4C71FEBBBBD00AF8B0D /* Debug */,
+				406FF4C81FEBBBBD00AF8B0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		406FF4C91FEBBBBD00AF8B0D /* Build configuration list for PBXNativeTarget "moodly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				406FF4CA1FEBBBBD00AF8B0D /* Debug */,
+				406FF4CB1FEBBBBD00AF8B0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 406FF4AF1FEBBBBD00AF8B0D /* Project object */;
+}
