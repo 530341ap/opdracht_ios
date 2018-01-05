@@ -21,7 +21,7 @@ extension AddActivitiesViewController: UICollectionViewDelegate {
 
 extension AddActivitiesViewController: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        let columns = traitCollection.horizontalSizeClass == .regular ? 6 : 3
+        let columns = traitCollection.horizontalSizeClass == .regular ? 4 : 3
         let whiteSpace = 8 + (columns - 1) * 8
         let cellWidth = (collectionView.frame.width - CGFloat(whiteSpace)) / CGFloat(columns)
         return CGSize(width: cellWidth, height: 80)
