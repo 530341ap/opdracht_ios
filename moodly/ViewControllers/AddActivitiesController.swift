@@ -43,4 +43,9 @@ extension AddActivitiesViewController: UICollectionViewDataSource {
         cell.activity = user.activities[indexPath.item]
         return cell
     }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        user.activities.remove(at: indexPath.item)
+        collectionView.deleteItems(at: [indexPath])
+    }
 }
